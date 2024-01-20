@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="獲取用戶訊息_ThreadLocal優化">
+    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="更新用戶基本訊息">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/pojo/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704974348275</updated>
-      <workItem from="1704974349311" duration="20284000" />
+      <workItem from="1704974349311" duration="21820000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705740529348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新用戶基本訊息">
+      <option name="closed" value="true" />
+      <created>1705741308204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705741308204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +203,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="獲取用戶訊息" />
     <MESSAGE value="獲取用戶訊息_ThreadLocal優化" />
-    <option name="LAST_COMMIT_MESSAGE" value="獲取用戶訊息_ThreadLocal優化" />
+    <MESSAGE value="更新用戶基本訊息" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新用戶基本訊息" />
   </component>
 </project>
