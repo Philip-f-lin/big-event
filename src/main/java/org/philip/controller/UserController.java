@@ -1,6 +1,7 @@
 package org.philip.controller;
 
 import jakarta.validation.constraints.Pattern;
+import org.hibernate.validator.constraints.URL;
 import org.philip.pojo.Result;
 import org.philip.pojo.User;
 import org.philip.service.UserService;
@@ -72,6 +73,12 @@ public class UserController {
     @PutMapping("/update")
     public Result<String> update(@RequestBody @Validated User user){
         userService.update(user);
+        return Result.success();
+    }
+
+    @PatchMapping("/updateAvatar")
+    public Result updateAvatar(@RequestParam @URL String avatarUrl){
+        userService.updateAvatar(avatarUrl);
         return Result.success();
     }
 
