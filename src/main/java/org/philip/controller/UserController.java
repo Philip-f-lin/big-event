@@ -69,5 +69,11 @@ public class UserController {
         return Result.success(user);
     }
 
+    @PutMapping("/update")
+    public Result<String> update(@RequestBody User user){
+        userService.update(user);
+        return Result.success();
+    }
+
 
 }
