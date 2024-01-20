@@ -6,6 +6,7 @@ import org.philip.pojo.User;
 import org.philip.service.UserService;
 import org.philip.utils.JwtUtil;
 import org.philip.utils.Md5Util;
+import org.philip.utils.ThreadLocalUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -57,11 +58,13 @@ public class UserController {
     }
 
     @GetMapping("/userInfo")
-    public Result<User> userInfo(@RequestHeader(name = "Authorization") String token){
+    public Result<User> userInfo(/*@RequestHeader(name = "Authorization") String token*/){
         // 根據用戶名查詢用戶
-        Map<String, Object> map = JwtUtil.parseToken(token);
-        String username = (String) map.get("username");
+        /*Map<String, Object> map = JwtUtil.parseToken(token);
+        String username = (String) map.get("username");*/
 
+        Map<String, Object> map = ThreadLocalUtil.get();
+        String username = (String) map.get("username");
         User user = userService.findByUserName(username);
         return Result.success(user);
     }
