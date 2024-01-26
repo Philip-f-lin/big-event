@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="更新用戶基本訊息_參數校驗">
+    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="更新用戶大頭照">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/pojo/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -161,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704974348275</updated>
-      <workItem from="1704974349311" duration="22476000" />
+      <workItem from="1704974349311" duration="32934000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -203,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705743045537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新用戶大頭照">
+      <option name="closed" value="true" />
+      <created>1705743855845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705743855845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +229,7 @@
     <MESSAGE value="獲取用戶訊息_ThreadLocal優化" />
     <MESSAGE value="更新用戶基本訊息" />
     <MESSAGE value="更新用戶基本訊息_參數校驗" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新用戶基本訊息_參數校驗" />
+    <MESSAGE value="更新用戶大頭照" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新用戶大頭照" />
   </component>
 </project>
