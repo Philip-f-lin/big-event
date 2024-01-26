@@ -3,6 +3,7 @@ package org.philip.mapper;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.philip.pojo.Category;
 
 import java.util.List;
@@ -22,4 +23,8 @@ public interface CategoryMapper {
     // 根據 id 查詢
     @Select("select * from category where id = #{id}")
     Category findById(Integer id);
+
+    // 更新
+    @Update("update category set category_name = #{categoryName}, category_alias = #{categoryAlias}, update_time = #{updateTime} where id = #{id}")
+    void update(Category category);
 }
