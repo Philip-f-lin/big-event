@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="自定義校驗">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/pojo/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/philip/mapper/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/philip/service/impl/ArticleServiceImpl.java" afterDir="false" />
+    <list default="true" id="b3ef6879-37b1-4f34-a531-0a8ec58f1068" name="Changes" comment="條件分頁查詢">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/philip/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704974348275</updated>
-      <workItem from="1704974349311" duration="46004000" />
+      <workItem from="1704974349311" duration="47504000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -264,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706876476199</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="條件分頁查詢">
+      <option name="closed" value="true" />
+      <created>1706931746525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706931746525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +286,7 @@
     <MESSAGE value="更新文章分類、添加文章分類，分組校驗" />
     <MESSAGE value="新增文章" />
     <MESSAGE value="自定義校驗" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定義校驗" />
+    <MESSAGE value="條件分頁查詢" />
+    <option name="LAST_COMMIT_MESSAGE" value="條件分頁查詢" />
   </component>
 </project>
